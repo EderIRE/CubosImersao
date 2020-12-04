@@ -1,5 +1,17 @@
 @import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
 
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 :root {
   --color-Thunder: #383133;
   --color-Gray: #c7c7d0;
@@ -7,8 +19,45 @@
   --color-Ship: #7490b6;
 }
 
-h1, h2, h3, body, p {
+.container {
+  display: grid;
+  grid-auto-columns: repeat(3, 1fr);
+  grid-template-areas:
+    'header header header'
+    'exp hab hab'
+    'footer footer footer';
+}
+
+h1,
+h2,
+h3,
+body,
+p {
   margin: 0;
+}
+
+.content {
+  margin: 0;
+  min-height: 100vh;
+}
+
+.mainHeader {
+  grid-area: header;
+  display: flex;
+}
+
+.colunamenor {
+  grid-area: exp;
+}
+
+.colunamaior {
+  grid-area: hab;
+}
+
+footer {
+  grid-area: footer;
+  display: flex;
+  justify-content: center;
 }
 
 .profileimg {
@@ -25,9 +74,8 @@ img:hover {
 }
 
 h1 {
-  font-family: "Playfair Display", serif;
+  font-family: 'Playfair Display', serif;
   font-size: 64px;
-  
 }
 
 h1 span {
@@ -37,13 +85,13 @@ h1 span {
 h3 {
   font-size: 16px;
   font-weight: normal;
-  font-family: "Playfair Display", serif;
+  font-family: 'Playfair Display', serif;
 }
 
 header p {
   font-size: 24px;
   padding-left: 3px;
-  }
+}
 
 .t60 {
   color: rgba(0, 0, 0, 0.6);
@@ -81,20 +129,23 @@ main {
 }
 
 .experiencias .linha {
-  border-color: rgba(135, 161, 194, 0.7)
+  border-color: rgba(135, 161, 194, 0.7);
 }
 
 .formacao .linha {
-  border-color: rgba(135, 161, 194, 0.7)
+  border-color: rgba(135, 161, 194, 0.7);
 }
 
 /* contatos */
 
-a, a:hover {
+a,
+a:hover {
   text-decoration: none;
 }
 
-.socialbtns, .socialbtns ul, .socialbtns li {
+.socialbtns,
+.socialbtns ul,
+.socialbtns li {
   margin: 0;
   padding: 5px;
   display: flex;
@@ -102,15 +153,15 @@ a, a:hover {
 }
 
 .socialbtns li {
-    list-style: none outside none;
-    display: inline-block;
+  list-style: none outside none;
+  display: inline-block;
 }
 
 .socialbtns .fa {
   width: 40px;
-    height: 28px;
+  height: 28px;
   color: #7490b6;
-  background-color:  rgba(116, 144, 182, 0.2);
+  background-color: rgba(116, 144, 182, 0.2);
   border: 1px solid #7490b6;
   padding-top: 12px;
   border-radius: 22px;
@@ -147,7 +198,8 @@ a, a:hover {
   display: inline-block;
 }
 
-ul, ol {
+ul,
+ol {
   list-style-type: none;
   padding: 0;
 }
@@ -161,14 +213,14 @@ ul, ol {
 }
 
 .colunamaior {
-margin-left: 24px;
+  margin-left: 24px;
 }
 
 .habilidades h2 {
   margin-top: 20px;
   margin-bottom: 12px;
   font-size: 36px;
- }
+}
 
 .conthab {
   background-color: #c7c7d0;
@@ -187,7 +239,6 @@ margin-left: 24px;
 
 .conthab p {
   font-size: 20px;
-  
 }
 
 .progresso {
@@ -208,7 +259,8 @@ margin-left: 24px;
 .barra0 {
   width: 20%;
   height: 4px;
-  background-color: #ffffff}
+  background-color: #ffffff;
+}
 
 .barra1 {
   width: 20%;
@@ -257,11 +309,11 @@ margin-left: 24px;
   margin-top: 24px;
 }
 
-footer{
+footer {
   background-color: #7490b6;
   color: #c7c7d0;
   padding: 57px;
   text-align: center;
   font-family: 'Playfair Display', serif;
   height: 12px;
-  }
+}
