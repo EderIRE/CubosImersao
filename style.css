@@ -1,6 +1,4 @@
-
 @import url("//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
-
 
 body,
 html {
@@ -25,30 +23,11 @@ html {
   display: grid;
   grid-auto-columns: repeat(3, 1fr);
   grid-template-areas:
-<<<<<<< Codesandbox
     "header header header"
     "exp hab hab"
     "footer footer footer";
-=======
-    'header header header'
-    'exp hab hab'
-    'footer footer footer';
->>>>>>> GitHub
 }
 
-<<<<<<< Codesandbox
-h1,
-h2,
-h3,
-body,
-p {
-  margin: 0;
-}
-
-.content {
-  margin: 0;
-  min-height: 100vh;
-=======
 .content {
   margin: 0;
   min-height: 100vh;
@@ -60,51 +39,16 @@ p {
   position: sticky;
   top: 0;
   z-index: 2;
->>>>>>> GitHub
 }
 
-<<<<<<< Codesandbox
-.mainHeader {
-  grid-area: header;
-=======
 .colunamenor {
   grid-area: exp;
->>>>>>> GitHub
-  display: flex;
 }
 
-<<<<<<< Codesandbox
-.colunamenor {
-  grid-area: exp;
-=======
-.colunamaior {
-  grid-area: hab;
->>>>>>> GitHub
-}
-
-<<<<<<< Codesandbox
 .colunamaior {
   grid-area: hab;
 }
 
-footer {
-  grid-area: footer;
-  display: flex;
-  justify-content: center;
-}
-
-.profileimg {
-  height: 250px;
-  width: 250px;
-  border: 3px solid #7490b63a;
-  border-radius: 50%;
-  padding: 5px;
-  margin-bottom: -100px;
-}
-
-img:hover {
-  box-shadow: 0 0 2px 1px #87a1c267;
-=======
 footer {
   grid-area: footer;
   display: flex;
@@ -126,30 +70,21 @@ p {
   border-radius: 50%;
   padding: 5px;
   margin-bottom: -100px;
->>>>>>> GitHub
 }
 
-<<<<<<< Codesandbox
-h1 {
-  font-family: "Playfair Display", serif;
-=======
 img:hover {
   box-shadow: 0 0 2px 1px #87a1c267;
->>>>>>> GitHub
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
   font-size: 64px;
 }
 
-<<<<<<< Codesandbox
 h1 span {
   font-weight: bold;
-=======
-h1 {
-  font-family: 'Playfair Display', serif;
->>>>>>> GitHub
-  font-size: 64px;
 }
 
-<<<<<<< Codesandbox
 h3 {
   font-size: 16px;
   font-weight: normal;
@@ -158,106 +93,38 @@ h3 {
 
 header p {
   font-size: 24px;
-=======
-h1 span {
-  font-weight: bold;
-}
-
-h3 {
-  font-size: 16px;
-  font-weight: normal;
-  font-family: 'Playfair Display', serif;
->>>>>>> GitHub
   padding-left: 3px;
 }
 
-<<<<<<< Codesandbox
 .t60 {
   color: rgba(0, 0, 0, 0.6);
-=======
-header p {
-  font-size: 24px;
->>>>>>> GitHub
-  padding-left: 3px;
 }
 
-<<<<<<< Codesandbox
-header {
-  background-color: rgba(135, 161, 194, 0.2);
-=======
-.t60 {
-  color: rgba(0, 0, 0, 0.6);
->>>>>>> GitHub
-  padding: 16px 54px;
-}
-
-<<<<<<< Codesandbox
-body {
-  background-color: rgba(116, 144, 182, 0.2);
-  font-family: "Open Sans", sans-serif;
-=======
 header {
   background-color: rgb(135, 161, 194);
   padding: 16px 54px;
->>>>>>> GitHub
 }
 
-<<<<<<< Codesandbox
-.divheader {
-  display: inline-block;
-  margin: 0 0 10px 30px;
-=======
 body {
   background-color: rgba(116, 144, 182, 0.2);
-  font-family: 'Open Sans', sans-serif;
->>>>>>> GitHub
+  font-family: "Open Sans", sans-serif;
 }
 
-<<<<<<< Codesandbox
-main {
-  padding: 20px 30px;
-  display: flex;
-=======
 .divheader {
   display: inline-block;
   margin: 0 0 10px 30px;
->>>>>>> GitHub
 }
 
-<<<<<<< Codesandbox
-.colunamenor {
-  margin-top: 90px;
-  width: 340px;
-=======
 main {
   padding: 20px 30px;
   display: flex;
->>>>>>> GitHub
 }
 
-<<<<<<< Codesandbox
-.linha {
-  margin-top: 5px;
-  width: 80px;
-=======
 .colunamenor {
   margin-top: 90px;
   width: 340px;
->>>>>>> GitHub
-  border-top: 2px solid;
 }
 
-<<<<<<< Codesandbox
-.experiencias .linha {
-  border-color: rgba(135, 161, 194, 0.7);
-}
-
-.formacao .linha {
-  border-color: rgba(135, 161, 194, 0.7);
-}
-
-/* contatos */
-=======
 .linha {
   margin-top: 5px;
   width: 80px;
@@ -267,29 +134,11 @@ main {
 .experiencias .linha {
   border-color: rgba(135, 161, 194, 0.7);
 }
->>>>>>> GitHub
 
-<<<<<<< Codesandbox
-a,
-a:hover {
-=======
 .formacao .linha {
   border-color: rgba(135, 161, 194, 0.7);
->>>>>>> GitHub
-  text-decoration: none;
 }
 
-<<<<<<< Codesandbox
-.socialbtns,
-.socialbtns ul,
-.socialbtns li {
-  margin: 0;
-  padding: 5px;
-  display: flex;
-  width: 340px;
-}
-
-=======
 /* contatos */
 
 a,
@@ -299,33 +148,7 @@ a:hover {
 
 .socialbtns,
 .socialbtns ul,
->>>>>>> GitHub
 .socialbtns li {
-<<<<<<< Codesandbox
-  list-style: none outside none;
-  display: inline-block;
-}
-
-.socialbtns .fa {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 40px;
-  height: 28px;
-  color: #7490b6;
-  background-color: rgba(116, 144, 182, 0.2);
-  border: 1px solid #7490b6;
-  border-radius: 22px;
-  -moz-border-radius: 22px;
-  -webkit-border-radius: 22px;
-  -o-border-radius: 22px;
-}
-
-.socialbtns .fa:hover {
-  color: #c7c7d0;
-  background-color: #7490b6;
-  border: 1px solid #fff;
-=======
   margin: 0;
   padding: 10px;
   display: flex;
@@ -349,19 +172,9 @@ a:hover {
   border-radius: 22px;
   -moz-border-radius: 22px;
   -webkit-border-radius: 22px;
->>>>>>> GitHub
   -o-border-radius: 22px;
 }
 
-<<<<<<< Codesandbox
-/* fim contatos */
-
-.colunamenor img {
-  height: 40px;
-  width: 40px;
-  border-radius: 6px;
-  margin-right: 8px;
-=======
 .socialbtns .fa:hover {
   color: #c7c7d0;
   background-color: #7490b6;
@@ -369,28 +182,7 @@ a:hover {
 }
 
 /* fim contatos */
->>>>>>> GitHub
-}
 
-<<<<<<< Codesandbox
-.colunamenor h2 {
-  font-size: 20px;
-}
-
-.colunamenor li {
-  display: flex;
-  margin-top: 32px;
-}
-
-.conteudo {
-  display: inline-block;
-}
-
-ul,
-ol {
-  list-style-type: none;
-  padding: 0;
-=======
 .colunamenor img {
   height: 40px;
   width: 40px;
@@ -408,28 +200,9 @@ ol {
 }
 
 .conteudo {
->>>>>>> GitHub
   display: inline-block;
 }
 
-<<<<<<< Codesandbox
-.periodo {
-  font-size: 17px;
-}
-
-.formacao {
-  margin-top: 32px;
-}
-
-.colunamaior {
-  margin-left: 24px;
-}
-
-.habilidades h2 {
-  margin-top: 20px;
-  margin-bottom: 12px;
-  font-size: 36px;
-=======
 ul,
 ol {
   list-style-type: none;
@@ -446,23 +219,8 @@ ol {
 
 .colunamaior {
   margin-left: 24px;
->>>>>>> GitHub
 }
 
-<<<<<<< Codesandbox
-.conthab {
-  background-color: #c7c7d0;
-  border-radius: 10px;
-  padding: 16px;
-  margin: 12px;
-  width: 280px;
-}
-
-.conthab h3 {
-  margin-bottom: 12px;
-  font-size: 24px;
-  font-weight: bold;
-=======
 .habilidades h2 {
   margin-top: 20px;
   margin-bottom: 12px;
@@ -475,70 +233,30 @@ ol {
   padding: 16px;
   margin: 12px;
   width: 280px;
->>>>>>> GitHub
-  font-family: "Open Sans", sans-serif;
 }
 
-<<<<<<< Codesandbox
-.conthab p {
-  font-size: 20px;
-}
-
-.progresso {
-  width: 100%;
-  display: flex;
-  flex-wrap: nowrap;
-=======
 .conthab h3 {
   margin-bottom: 12px;
   font-size: 24px;
   font-weight: bold;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .conthab p {
->>>>>>> GitHub
   font-size: 20px;
 }
 
-<<<<<<< Codesandbox
-.nome {
-  margin-top: 30px;
-  margin-bottom: 10px;
-=======
 .progresso {
   width: 100%;
   display: flex;
->>>>>>> GitHub
   flex-wrap: nowrap;
 }
 
-<<<<<<< Codesandbox
-.conthab li:first-child {
-  margin-top: 0px;
-=======
 .nome {
   margin-top: 30px;
->>>>>>> GitHub
   margin-bottom: 10px;
 }
 
-<<<<<<< Codesandbox
-.barra0 {
-  width: 20%;
-  height: 4px;
-  background-color: #ffffff;
-}
-
-.barra1 {
-  width: 20%;
-  height: 4px;
-  background-color: #383133;
-}
-
-.containercards {
-  display: flex;
-=======
 .conthab li:first-child {
   margin-top: 0px;
 }
@@ -553,20 +271,18 @@ ol {
   width: 20%;
   height: 4px;
   background-color: #383133;
->>>>>>> GitHub
-  flex-wrap: wrap;
 }
 
-<<<<<<< Codesandbox
-.projetos {
-=======
 .containercards {
->>>>>>> GitHub
   display: flex;
   flex-wrap: wrap;
 }
 
-<<<<<<< Codesandbox
+.projetos {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .projeto {
   width: 392px;
   padding: 24px;
@@ -578,29 +294,31 @@ ol {
 .projeto h3 {
   font-size: 24px;
   font-weight: bold;
-=======
-.projetos {
-  display: flex;
-  flex-wrap: wrap;
 }
 
-.projeto {
-  width: 392px;
-  padding: 24px;
-  background-color: #c7c7d0;
-  border-radius: 8px;
-  margin: 12px;
->>>>>>> GitHub
-}
-
-<<<<<<< Codesandbox
 .projeto p {
   margin-top: 16px;
   margin-bottom: 24px;
-=======
-.projeto h3 {
-  font-size: 24px;
-  font-weight: bold;
->>>>>>> GitHub
 }
 
+.projeto a {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #7490b6;
+  color: #c7c7d0;
+  padding: 8px 24px;
+  font-family: "Open Sans", sans-serif;
+  border-radius: 4px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 24px;
+}
+
+footer {
+  background-color: #7490b6;
+  color: #c7c7d0;
+  padding: 57px;
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  height: 12px;
+}
